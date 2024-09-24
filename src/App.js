@@ -25,12 +25,12 @@ function App() {
       <div>
         <Routes>
           <Route
-            path="/login"
+            path="/"
             element={user ? <Navigate to="/chat" /> : <Login />}
           />
           <Route
             path="/chat"
-            element={user ? <ChatRoom user={user} /> : <Navigate to="/login" />}
+            element={user ? <ChatRoom user={user} /> : <Navigate to="/" />}
           />
         </Routes>
       </div>

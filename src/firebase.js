@@ -4,12 +4,12 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
+  apiKey: "AIzaSyD5uSA1aCGBziVSlOJUMJEGv8Qxuh1AKRU",
+  authDomain: "all-in-one-001.firebaseapp.com",
+  projectId: "all-in-one-001",
+  storageBucket: "all-in-one-001.appspot.com",
+  messagingSenderId: "420414355920",
+  appId: "1:420414355920:web:fa865581ed99492f5b61d5",
 };
 
 // Initialize Firebase
